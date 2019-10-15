@@ -1,0 +1,12 @@
+# You can use this file to create a conda environment for this pipeline:
+# # conda env create -f environment.yml
+
+# TODO:
+# How do you install to "base"? Do you just omit "name"?
+name: fargen-base
+
+dependencies:
+    - bioconda::nextflow=19.07.0
+    - Freenome::bcl2fastq=2.20
+    - bioconda::fastqc=0.11.8
+#    - bioconda::multiqc=1.7
